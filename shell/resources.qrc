@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Main.qml</file>
+        <file>qml/theme/qmldir</file>
+        <file>qml/theme/SRITECTheme.qml</file>
+        <file>qml/components/NavSidebar.qml</file>
+        <file>qml/components/StatusPanel.qml</file>
+        <file>qml/components/FloatingTopHUD.qml</file>
+        <file>qml/components/AIIcon.qml</file>
+        <file>qml/components/NeuralBackground.qml</file>
+        <file>qml/components/HolographicAvatar.qml</file>
+        <file>qml/components/AppDock.qml</file>
+        <file>qml/components/DesktopIconGrid.qml</file>
+        <file>qml/components/AppDrawer.qml</file>
+        <file>qml/components/QuickSettingsPanel.qml</file>
+        <file>qml/components/NotificationCenter.qml</file>
+        <file>qml/components/CalendarPopup.qml</file>
+        <file>qml/components/UniversalSearchOverlay.qml</file>
+        <file>qml/components/FloatingRoboticsPod.qml</file>
+        <file>qml/components/AppTransitionEffects.qml</file>
+        <file>qml/components/AppLaunchTransition.qml</file>
+        <file>qml/components/AppWindowFrame.qml</file>
+        <file>qml/components/PowerControlModal.qml</file>
+        <file>qml/components/ScreenRecorderHUD.qml</file>
+        <file>qml/components/ScreenshotPreviewToast.qml</file>
+        <file>qml/components/JarvisHUD.qml</file>
+        <file>qml/components/JarvisGestureHUD.qml</file>
+        <file>qml/views/internal/SpatialFilesView.qml</file>
+        <file>qml/views/internal/SmartTerminalView.qml</file>
+        <file>qml/views/internal/NeuralCalculatorView.qml</file>
+        <file>qml/views/internal/SystemMonitorView.qml</file>
+        <file>qml/views/internal/CodeStudioView.qml</file>
+        <file>qml/views/internal/NebulaBrowserView.qml</file>
+        <file>qml/views/DesktopHomeView.qml</file>
+        <file>qml/views/AIAssistantView.qml</file>
+        <file>qml/views/DeveloperWorkspaceView.qml</file>
+        <file>qml/views/SettingsView.qml</file>
+        <file>qml/views/RoboticsWorkspaceView.qml</file>
+        <file>resources/images/robotics/robotics_lab_fleet.jpg</file>
+        <file>resources/images/robotics/humanoid_assistant.jpg</file>
+        <file>resources/images/robotics/robotic_arm_automation.jpg</file>
+        <file>resources/images/robotics/lisa_hologram.jpg</file>
+        <file>resources/images/wallpapers/ai_robotics_wallpaper.jpg</file>
+        <file>resources/images/wallpapers/ai_robotics_cyber_robot.jpg</file>
+        <file>resources/images/wallpapers/ai_robotics_workspace.jpg</file>
+    </qresource>
+</RCC>

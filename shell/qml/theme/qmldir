@@ -1,0 +1,2 @@
+module sritec.theme
+singleton SRITECTheme 1.0 SRITECTheme.qml

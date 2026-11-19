@@ -1,0 +1,61 @@
+# Build artifacts
+build/
+bin/
+lib/
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Qt / QML cache
+.rcc/
+*.qmlc
+*.jsc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and runtime caches
+*.log
+/run/
+/tmp/
+.cache/
+
+# Credentials and Secrets (Strict Exclusion)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.token
+*secret*
+secrets/
+keys.json
+
+# Local model weights and embeddings (store externally or in dedicated volume)
+models/*.bin
+models/*.gguf
+models/*.onnx
+
+# ISO generation scratch
+os-dist/live-build/chroot/
+os-dist/live-build/binary/
+os-dist/live-build/*.iso
