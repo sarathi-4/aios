@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SRITEC AI OS — NEBULA
+GenericName=AI Operating Environment
+Comment=Futuristic AI-native operating environment and developer workstation
+Exec=/run/media/sarathi/250-2.1/aios/scripts/run.sh
+Icon=/run/media/sarathi/250-2.1/aios/shell/resources/images/robotics/lisa_hologram.jpg
+Path=/run/media/sarathi/250-2.1/aios
+Terminal=false
+Categories=System;Utility;Development;
+StartupNotify=true
+StartupWMClass=sritec-shell
