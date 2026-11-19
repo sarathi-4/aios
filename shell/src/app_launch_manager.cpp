@@ -129,20 +129,20 @@ void AppLaunchManager::registerDefaultApps() {
     };
 
     m_registry["vscode"] = {
-        "vscode", "Visual Studio Code", "Development", "vscode", "external",
-        AppClassification::UnsupportedExternal, "#3B82F6", 1160, 720,
+        "vscode", "Visual Studio Code", "Development", "vscode", "internal",
+        AppClassification::InternalNative, "#3B82F6", 1160, 720,
         "External IDE", "editor"
     };
 
     m_registry["antigravity"] = {
-        "antigravity", "Antigravity IDE", "Development", "antigravity", "external",
-        AppClassification::UnsupportedExternal, "#8B5CF6", 1160, 720,
+        "antigravity", "Antigravity IDE", "Development", "antigravity", "internal",
+        AppClassification::InternalNative, "#8B5CF6", 1160, 720,
         "External agentic workspace", "editor"
     };
 
     m_registry["android_studio"] = {
-        "android_studio", "Android Studio", "Development", "android_studio", "external",
-        AppClassification::UnsupportedExternal, "#00F5A0", 1160, 720,
+        "android_studio", "Android Studio", "Development", "android_studio", "internal",
+        AppClassification::InternalNative, "#00F5A0", 1160, 720,
         "External Android SDK IDE", "editor"
     };
 

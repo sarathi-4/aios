@@ -241,7 +241,7 @@ Rectangle {
                     if (id === "calculator") return calcComp;
                     if (id === "settings") return settingsComp;
                     if (id === "monitor") return monitorComp;
-                    if (id === "editor") return editorComp;
+                    if (id === "editor" || id === "vscode" || id === "antigravity" || id === "android_studio") return editorComp;
                     if (id === "robotics") return roboticsComp;
                     if (id === "assistant") return assistantComp;
                     if (id === "browser" || id === "firefox" || id === "chrome") return browserComp;
@@ -257,7 +257,7 @@ Rectangle {
             Component { id: calcComp; NeuralCalculatorView {} }
             Component { id: settingsComp; SettingsView {} }
             Component { id: monitorComp; SystemMonitorView {} }
-            Component { id: editorComp; CodeStudioView {} }
+            Component { id: editorComp; CodeStudioView { initialAppId: root.windowData ? root.windowData.appId : "editor" } }
             Component { id: roboticsComp; RoboticsWorkspaceView { onBackToDesktopRequested: closeAnimation.restart() } }
             Component { id: assistantComp; AIAssistantView {} }
             Component { id: browserComp; NebulaBrowserView {} }
